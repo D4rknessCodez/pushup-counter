@@ -1,11 +1,13 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
     basic.showNumber(0)
 })
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
+    
     Counter = 0
     basic.showNumber(0)
 })
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    
     Counter += 1
     basic.showNumber(Counter)
     if (Counter == 10) {
@@ -26,10 +28,11 @@ input.onButtonPressed(Button.B, function () {
                 `)
         }
     }
+    
 })
 let Counter = 0
 basic.showNumber(0)
 Counter = 0
-basic.forever(function () {
-	
+basic.forever(function on_forever() {
+    
 })
